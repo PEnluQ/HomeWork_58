@@ -1,0 +1,34 @@
+.Alert {
+    border: 1px solid grey;
+    background: #cccccc;
+    border-radius: 5px;
+    width: 50%;
+    min-height: 50px;
+    opacity: 0.7;
+    padding: 20px 0 0 20px;
+    font-size: 22px;
+    margin-top: 10px;
+    position: relative;
+}
+.warning {
+    background: #ffff66;
+}
+.primary {
+    background: #3366ff;
+}
+.success {
+    background: #33cc33;
+}
+.danger {
+    background: #ff5050;
+}
+.contentAlert {
+    display: flex;
+}
+.clickAlert {
+    cursor: pointer;
+    display: block;
+    right: 15px;
+    bottom: 0;
+    position: absolute;
+}
