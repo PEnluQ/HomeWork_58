@@ -47,8 +47,16 @@ class SiteBuild extends Component {
                 </Alert>
                 <Alert
                     type='primary'
+                    dismiss={this.dismissAlert}
                 >
                     This is a primary type alert
+                </Alert>
+                <Alert
+                    type='success'
+                    clickDismissable
+                    dismiss={this.dismissAlert}
+                >
+                    This is a success type alert
                 </Alert>
             </div>
         )
